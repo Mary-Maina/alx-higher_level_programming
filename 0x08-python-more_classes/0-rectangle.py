@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-class Rectangle(object):
+"Creating an empty class rectangle"
+class Rectangle:
+    "attributes are empty"
     pass
