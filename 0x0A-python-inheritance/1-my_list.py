@@ -1,13 +1,16 @@
 #!/usr/bin/python3
-"""srts a list in ascendin order"""
+"""
+===========================
+Module with class MyList
+===========================
+"""
 
 
 class MyList(list):
-    """
-    defines class MyList
-    """
+    """Class with method print_sorted"""
+    pass
+
     def print_sorted(self):
-        """
-        print_sorted sorts a list in ascending order
-        """
-        print(sorted(self))
+        """Methot that sorted a list"""
+
+        print(sorted(list(self)))
