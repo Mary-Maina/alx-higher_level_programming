@@ -9,11 +9,5 @@ class MyList(list):
     def print_sorted(self):
         """
         print_sorted sorts a list in ascending order
-
-        Args:
-        self: the list
-        Returns:
-        list in ascendin order
         """
-        x = sorted(self)
-        print(x)
+        print(sorted(self))
