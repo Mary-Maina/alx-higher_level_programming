@@ -6,7 +6,7 @@ const args = process.argv.slice(2);
 const first = args[0];
 const number = parseInt(first, 10);
 
-if (isNaN(number)) {
+if (isNaN(number) || args.length === 0) {
   console.log('Not a number');
 } else {
   console.log('My Number: ' + number);
